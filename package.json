@@ -1,0 +1,40 @@
+{
+  "name": "PerfexCRM-Module-Boilerplate",
+  "version": "1.0.0",
+  "description": "A Module Boilerplate for PerfexCRM",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LunarDevelopment/PerfexCRM-Module-Boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LunarDevelopment/PerfexCRM-Module-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/LunarDevelopment/PerfexCRM-Module-Boilerplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-uglify": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-pagespeed": "^2.0.1",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^2.0.0",
+    "imagemin-mozjpeg": "^5.1.0",
+    "load-grunt-tasks": "^3.5.2",
+    "pixrem": "^3.0.2",
+    "time-grunt": "^1.4.0"
+  }
+}

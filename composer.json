@@ -1,0 +1,10 @@
+{
+    "name": "lunardevelopment/perfex-crm-module-boilerplate",
+    "authors": [
+        {
+            "name": "LunarDevelopment",
+            "email": "development.lunar@gmail.com"
+        }
+    ],
+    "require": {}
+}
