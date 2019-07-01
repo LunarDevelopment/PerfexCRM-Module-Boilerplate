@@ -1,7 +1,7 @@
 # PerfexCRM-Module-Boilerplate
 A Module Boilerplate for PerfexCRM
 
-##References
+## References
 
 [Introduction to Modules](https://help.perfexcrm.com/introduction-to-perfex-crm-modules/)
 
@@ -22,21 +22,23 @@ This boilerplate uses composer for dependency management and npm with
 You can create a new module with this repo by running the following commands: 
 
 ```bash
-
 npm i -g node-sass
 npm i -g sassdoc
 npm i -g grunt-cli
 npm i -g bower
-
-bower install --save-dev jQuery
-bower install --save-dev normalize-css
-bower install --save-dev font-awesome
 
 git clone https://github.com/LunarDevelopment/PerfexCRM-Module-Boilerplate.git MYMODULENAME 
 
 cd MYMODULENAME 
 mv ./PerfexCRM-Module-Boilerplate.php ./MYMODULENAME.php 
 mv ./language/english/MYMODULE_lang.php ./language/english/REPLACETHISBIT_lang.php 
+
+npm install 
+bower install
+
+# bower install --save-dev jQuery
+# bower install --save-dev normalize-css
+# bower install --save-dev font-awesome
 
 # Remember to update the doc block in ./MYMODULENAME.php  with the name of your module and a description
 
