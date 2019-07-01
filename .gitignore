@@ -77,5 +77,8 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+# Dependencies
 node_modules
 bower_components
+vendor
+
