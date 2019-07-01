@@ -22,6 +22,7 @@ This boilerplate uses composer for dependency management and npm with
 You can create a new module with this repo by running the following commands: 
 
 ```bash
+# these are system wide and only required as a one off
 npm i -g node-sass
 npm i -g sassdoc
 npm i -g grunt-cli
@@ -35,7 +36,9 @@ mv ./language/english/MYMODULE_lang.php ./language/english/REPLACETHISBIT_lang.p
 
 npm install 
 bower install
+composer install 
 
+# Not needed but handy to know what bower is installing for you: 
 # bower install --save-dev jQuery
 # bower install --save-dev normalize-css
 # bower install --save-dev font-awesome
